@@ -2,7 +2,10 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    /* Creamos 4 columnas divididas en fracciones
+    que cada una abarca un ancho calculado para
+    poder abarcar el espacio total del contenedor */
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .item {
