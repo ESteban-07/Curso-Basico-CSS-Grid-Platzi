@@ -6,10 +6,12 @@
     grid-template-columns: repeat(3, 150px);
     grid-auto-rows: 150px;
     height: 600px;
-    /* Esta propiedad nos permite ubicar de manera central nuestra grilla tanto horizontal como verticalmente */
-    place-content: center;
     /* Esta propiedad permite ubicar nuestra grilla en la esquina inferior derecha de su contenedor */
     place-content: end;
+    /* Ubica cada uno de los items de manera horizontal a la derecha */
+    justify-items: end;
+    /* Ubica cada uno de los items de manera vertical en la parte superior derecha */
+    align-items: start;
 }
 
 .item {
