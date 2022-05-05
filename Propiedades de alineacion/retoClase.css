@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff1ff;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-auto-rows: 200px;
+    gap: 15px;
+    /* Alineamos la grilla en el centro de nuestro container */
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    background-color: #aed901;
+    display: grid;
+    /* Alineamos los item-square en la parte inferior derecha de la grilla */
+    justify-items: end;
+    align-items: end;
+}
+
+.item-square {
+    background-color: #71bb05;
+    width: 45px;
+    height: 65px;
+}
