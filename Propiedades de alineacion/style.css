@@ -10,6 +10,8 @@
     justify-content: center;
     /* Alineamos nuestra grilla al centro de nuestro contenedor verticalmente */
     align-content: center;
+    /* Esta propiedad nos permite ubicar de manera central nuestra grilla tanto horizontal como verticalmente */
+    place-content: center;
 }
 
 .item {
