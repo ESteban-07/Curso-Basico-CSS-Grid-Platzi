@@ -4,6 +4,12 @@
     display: grid;
     grid-template-columns: 150px 150px 150px;
     grid-template-rows: 75px 75px 75px;
+    /* Con esta propiedad creamos un template de areas para
+     luego ubicar nuestros elementos dentro de ella */
+    grid-template-areas: 
+        "header header header"
+        "side main main"
+        "side main main";
     place-content: center;
 }
 
@@ -14,19 +20,19 @@
 .item-1 {
     border: 5px solid #f8bbd0;
     background-color: #ffeeff;
-    /* grid-row: 1 / 2; */
-    grid-column: 1 / 4;
+    /* Con esta propiedad le indicamos al item en 
+    que parte de nuestro template se va a ubicar */
+    grid-area: header;
 }
 
 .item-2 {
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
-    grid-row: 2 / 4;
-    /* grid-column: 1 / 2; */
+    grid-area: side;
 }
 
 .item-3 {
     border: 5px solid #b2ebf2;
     background-color: #e5fffe;
-    grid-area:  2 / 2 / 4 / 4;
+    grid-area: main;
 }
