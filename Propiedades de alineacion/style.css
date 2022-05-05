@@ -13,8 +13,14 @@
     /* Ubica cada uno de los items de manera vertical en la parte superior derecha */
     align-items: start;
 }
-
 .item {
     border: 5px solid #00bcd4;
     font-size: 4rem;
+}
+
+.item-2 {
+    /* Ubicamos al elemento 2 del final de su celda hacia el inicio */
+    justify-self: start;
+    /* Ubicamos al elemento 2 en la parte inferior de la celda que lo contiene */
+    align-self: end;
 }
