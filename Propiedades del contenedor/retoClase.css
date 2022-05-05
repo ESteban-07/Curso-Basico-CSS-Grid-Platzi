@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #fff1ff;
+    display: grid;
+    grid-auto-columns: 100px;
+    grid-template-rows: repeat(3, 100px);
+    grid-auto-flow: column;
+    gap: 20px;
+}
+
+.item {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0px 5px;
+}
+
+.row-1 {
+    background-color: #aed901;
+}
+
+.row-1 .number {
+    background-color: #1f8604;
+}
+
+.row-2 {
+    background-color: #71bb05;
+}
+
+.row-2 .number {
+    background-color: #278200;
+}
+
+.row-3 {
+    background-color: #268201;
+}
+
+.row-3 .number {
+    background-color: #1b390b;
+}
