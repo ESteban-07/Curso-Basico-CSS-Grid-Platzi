@@ -2,10 +2,10 @@
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
     display: grid;
-    /* Creamos 4 columnas divididas en fracciones
-    que cada una abarca un ancho calculado para
-    poder abarcar el espacio total del contenedor */
-    grid-template-columns: repeat(4, 1fr);
+    /* Indicamos que todas las columnas tendrán una
+    un ancho diferente pero mantendrán su proporción
+    a medida que escalamos la pantalla */
+    grid-template-columns: 1fr 3fr 1fr 2fr;
 }
 
 .item {
