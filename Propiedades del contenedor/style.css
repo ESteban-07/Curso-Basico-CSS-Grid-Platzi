@@ -4,10 +4,14 @@
     display: grid;
     /* Las primeras tres columnas tendrán un ancho definido */
     grid-template-columns: 100px 200px 300px;
-    grid-template-rows: 150px 250px;
     /* Establece un alto definido para las filas que se crean automáticamente */
     grid-auto-rows: 150px;
     /* Por defecto la grilla rellana los espacios con nuevas filas, pero aquí especificamos que queremos que nos llene los espacios con nuevas columnas */
+    /* Las dos primeras filas tendrán un alto definido */
+    grid-template-rows: 100px 200px;
+    /* Establece un ancho definido para las columnas que se crean automáticamente */
+    grid-auto-columns: 100px;
+    /* Por defecto la grilla rellana los espacios con nuevas filas, pero aquí especificamos que queremos que nos llene los espacios primero con columnas, por eso su orden numérico cambia */
     grid-auto-flow: column;
 }
 
