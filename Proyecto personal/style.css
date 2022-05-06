@@ -97,3 +97,53 @@ main {
 .img-video {
     grid-area: 1 / 1 / 3 / 3;
 }
+
+/* HOME MENU SECTION */
+
+.menu-section {
+    padding-bottom: 30px;
+}
+
+.menu__title {
+    color: #686d6f;
+    padding-bottom: 25px;
+    font-size: 25rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+    grid-template-rows: 200px;
+    gap: 15px;
+}
+
+.menu__img {
+    background-color: #fcebec;
+    border-top-left-radius: 30px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.menu__img .heart-icon {
+    padding-top: 10px;
+    padding-right: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu__img .heart-icon i {
+    color: #64cad3;
+}
+
+.menu__img .heart-icon .--pink {
+    color: #df9e7a;
+}
+
+.menu__img .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
