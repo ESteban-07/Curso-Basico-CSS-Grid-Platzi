@@ -1,5 +1,5 @@
 /* Importamos la tipografía de Roboto */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
@@ -7,11 +7,55 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 6.25%;
+}
+
 body {
+    font-size: 16rem;
     font-family: 'Roboto', sans-serif;
 }
 
 main {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+
+.hero-left__title {
+    color: #002327;
+    font-size: 52rem;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.hero-left__text {
+    color: #7a7e7e;
+    width: 90%;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.hero-left__btn {
+    background-color: #ea731d;
+    border-radius: 28px;
+    border: 1px solid #c76118;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18rem;
+    padding: 10px 40px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.hero-right__img {
+    width: 80%;
 }
