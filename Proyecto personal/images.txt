@@ -1,0 +1,98 @@
+Hola amigos de Platzi!
+
+Aquí les dejo el link de las imágenes para que puedan usarlo como link externo y no lo tengan en local 😊💚
+
+-----------------------------------------------------------------
+
+dish1 (URL)
+https://i.postimg.cc/qR0pRyfB/dish1.png
+
+dish1 (HTML)
+<img src="https://i.postimg.cc/qR0pRyfB/dish1.png" alt="dish1">
+
+-----------------------------------------------------------------
+
+dish2 (URL)
+https://i.postimg.cc/Wp5sNd5j/dish2.png
+
+dish2 (HTML)
+<img src="https://i.postimg.cc/Wp5sNd5j/dish2.png" alt="dish2">
+
+-----------------------------------------------------------------
+
+dish3 (URL)
+https://i.postimg.cc/hPwgmHF5/dish3.png
+
+dish3 (HTML)
+<img src="https://i.postimg.cc/hPwgmHF5/dish3.png" alt="dish3">
+
+-----------------------------------------------------------------
+
+dish4 (URL)
+https://i.postimg.cc/MG08hHnC/dish4.png
+
+dish4 (HTML)
+<img src="https://i.postimg.cc/MG08hHnC/dish4.png" alt="dish4">
+
+-----------------------------------------------------------------
+
+hero (URL)
+https://i.postimg.cc/zD21m9fG/hero.png
+
+hero (HTML)
+<img src="https://i.postimg.cc/zD21m9fG/hero.png" alt="hero">
+
+-----------------------------------------------------------------
+
+plate1 (URL)
+https://i.postimg.cc/15g1yJgc/plate1.png
+
+plate1 (HTML)
+<img src="https://i.postimg.cc/15g1yJgc/plate1.png" alt="plate1">
+
+-----------------------------------------------------------------
+
+plate2 (URL)
+https://i.postimg.cc/cH1P2my3/plate2.png
+
+plate2 (HTML)
+<img src="https://i.postimg.cc/cH1P2my3/plate2.png" alt="plate2">
+
+-----------------------------------------------------------------
+
+plate3 (URL)
+https://i.postimg.cc/rs3bd2dG/plate3.png
+
+plate3 (HTML)
+<img src="https://i.postimg.cc/rs3bd2dG/plate3.png" alt="plate3">
+
+-----------------------------------------------------------------
+
+plate4 (URL)
+https://i.postimg.cc/Fsk8MzqT/plate4.png
+
+plate4 (HTML)
+<img src="https://i.postimg.cc/Fsk8MzqT/plate4.png" alt="plate4">
+
+-----------------------------------------------------------------
+
+plate5 (URL)
+https://i.postimg.cc/rw63Mc2M/plate5.png
+
+plate5 (HTML)
+<img src="https://i.postimg.cc/rw63Mc2M/plate5.png" alt="plate5">
+
+-----------------------------------------------------------------
+
+video (URL)
+https://i.postimg.cc/k5qHRc5H/video.png
+
+video (HTML)
+<img src="https://i.postimg.cc/k5qHRc5H/video.png" alt="video">
+
+-----------------------------------------------------------------
+
+-------------------------------
+¦ Aporte de: JonathanCFDev    ¦
+¦ Modificado por: esteban_007 ¦
+-------------------------------
