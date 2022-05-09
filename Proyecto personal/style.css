@@ -111,6 +111,8 @@ main {
 /* HOME MENU SECTION */
 
 .menu-section {
+    width: 90%;
+    margin: 0 auto;
     padding-bottom: 30px;
 }
 
@@ -122,18 +124,25 @@ main {
     text-align: center;
 }
 
-.menu-container {
+.menu-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(100px, 1fr));
-    grid-template-rows: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 1fr;
     gap: 15px;
 }
 
 .menu__img {
-    background-color: #fcebec;
+    background-color: #fafad2;
+    border: 1px solid rgba(0, 0, 0, 0.2);;
     border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
     position: relative;
-    padding: 20px 0;
+    padding: 20px;
+}
+
+.menu__img:hover {
+    box-shadow: 0 2px 5px .2px rgba(88, 88, 88, 0.24);
+    cursor: pointer;
 }
 
 .menu__img .heart-icon {
@@ -155,7 +164,7 @@ main {
 .menu__img .img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* Media Queries */
@@ -184,6 +193,9 @@ main {
 @media (max-width: 550px) {
     .services-grid {
         grid-template-columns: repeat(auto-fit, minmax(75px, 175px));
+    }
+    .menu-grid {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
     }
 }
 
