@@ -23,43 +23,52 @@ main {
 
 /* HERO SECTION */
 
-.hero-container {
+.hero {
+    position: relative;
+    background-color: #000000;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(200px, 1fr) 1fr;
+    grid-auto-rows: 400px;
     place-items: center;
+}
+
+.hero-left {
+    width: 90%;
+    z-index: 9;
 }
 
 
 .hero-left__title {
-    color: #002327;
+    color: #ffffff;
     font-size: 52rem;
-    font-weight: 900;
+    font-weight: 700;
     padding-bottom: 20px;
 }
 
 .hero-left__text {
-    color: #7a7e7e;
-    width: 90%;
+    color: #f8f8f8;
     font-size: 18px;
     padding-bottom: 30px;
 }
 
 .hero-left__btn {
-    background-color: #ea731d;
+    background: linear-gradient(-15deg, rgb(255, 136, 0),rgb(255, 136, 0), white);
+    border: none;
     border-radius: 28px;
-    border: 1px solid #c76118;
-    display: inline-block;
     cursor: pointer;
-    color: #ffffff;
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-size: 18rem;
+    font-size: 20rem;
+    font-weight: bolder;
     padding: 10px 40px;
     text-align: center;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 .hero-right__img {
-    width: 80%;
+    width: 90%;
+    max-width: 400px;
+    object-fit: contain;
 }
 
 /* SERVICES SECTION */
@@ -146,4 +155,36 @@ main {
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+/* Media Queries */
+
+@media (max-width: 798px) {
+    .hero-right__img {
+        display: none;
+    }
+    .hero {
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+        background-image: url('https://i.ibb.co/R0xYKtR/hero.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+    .hero::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, black 20%, rgba(0, 0, 0, 0));
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-left__title {
+        font-size: 42rem;
+    }
+    .hero-left__text {
+        font-size: 16rem;
+    }
 }
